@@ -10,6 +10,4 @@ RUN mix local.hex --force
 RUN mix local.rebar --force
 RUN mix archive.install https://github.com/nerves-project/archives/raw/master/nerves_bootstrap.ez --force
 
-WORKDIR /app/apps/fw
-
 CMD ["mix"]
