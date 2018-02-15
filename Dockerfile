@@ -1,4 +1,4 @@
-FROM elixir:1.4.2
+FROM elixir:1.5.1
 
 RUN apt-get update
 RUN curl -OL https://github.com/fhunleth/fwup/releases/download/v0.14.2/fwup_0.14.2_amd64.deb
